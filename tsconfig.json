@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "moduleResolution": "Node",
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "./@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
